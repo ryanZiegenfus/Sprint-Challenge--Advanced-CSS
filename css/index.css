@@ -169,12 +169,14 @@ p {
   margin: 0 auto;
 }
 #nav-container {
+  position: fixed;
+  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: #F1F1F1;
+  background: rgba(241, 241, 241, 0.774);
   padding-bottom: 10px;
   max-height: 100px;
 }
@@ -238,6 +240,7 @@ nav {
   font-weight: 600;
 }
 .home .intro img {
+  margin-top: 100px;
   border-radius: 5px;
 }
 @media screen and (max-width: 500px) {
