@@ -32,15 +32,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website? 
 
-2. Describe what it means to be mobile first vs desktop first.
+    Responsive design has content that adapts to whatever the screen size is using percentages and media queries. A common analogy is like water in a container. An adaptive design is one where there are multiple static design built for different screen sizes.
+
+2. Describe what it means to be mobile first vs desktop first. 
+
+    Mobile first designs start by designing content with a mobile display in mind. This display then gets adapted and modified for larger screen sizes. Desktop first does this in reverse. Mobile first designs often use min-width media queries, whereas desktop first designs often use max-width media queries.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    The default font of most browsers is 16 px. Putting font-size: 62.5% in the html tag wold set the font size for the html tag to 10px. Since rem is based off of the html tag, 1 rem would be 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing is kind of like new syntax that gets converted into css. It is adds a lot of features to your arsenal that vanilla css doesnt have. It is also a great way to simplify and organize your css.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    My favorite part of Preprocessing is definitely nesting. This is so helpful for organizing your code. Parametric mixins is the concept that gives me the most trouble. This is only because there more syntactical components when creating and using them.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
